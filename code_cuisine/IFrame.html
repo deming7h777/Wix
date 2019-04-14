@@ -40,7 +40,7 @@
                         }
                         if (props.content) {
                             var infoWindow = new google.maps.InfoWindow({
-                                content: props.content + image_set[props.content],
+                                content: '<p>' + props.content + '<br>' + '</p>' + image_set[props.content],
                             }
                                 
                             );
